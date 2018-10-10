@@ -1,0 +1,1 @@
+function add(number,another){return number+another;}
