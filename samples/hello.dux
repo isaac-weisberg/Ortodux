@@ -1,0 +1,5 @@
+
+
+def add(number: number, another: number) {
+    return number + another
+}
