@@ -1,3 +1,6 @@
+import parse from './parser/parse'
+
 export async function compile(source: string): Promise<string> {
-    return ''
+    const parsed = await parse(source)
+    return await compile(parsed)
 }
